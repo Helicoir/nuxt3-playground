@@ -1,0 +1,68 @@
+{
+  "global": {
+    "pink": {
+      "value": "#EA62B4",
+      "type": "color"
+    },
+    "gray": {
+      "value": "#daced5",
+      "type": "color"
+    },
+    "main": {
+      "value": "DIN Alternate",
+      "type": "fontFamilies"
+    },
+    "large": {
+      "value": "96",
+      "type": "fontSizes"
+    },
+    "medium": {
+      "value": "48",
+      "type": "fontSizes"
+    },
+    "small": {
+      "value": "24",
+      "type": "fontSizes"
+    },
+    "paragraph": {
+      "value": "Noto Sans",
+      "type": "fontFamilies"
+    },
+    "title": {
+      "value": "12",
+      "type": "letterSpacing"
+    },
+    "default": {
+      "value": {
+        "x": "5",
+        "y": "15",
+        "blur": "30",
+        "spread": "5",
+        "color": "rgba(0, 0, 0, 0.3)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "white": {
+      "value": "#fff",
+      "type": "color"
+    },
+    "thin blur": {
+      "value": {
+        "x": "2",
+        "y": "5",
+        "blur": "20",
+        "spread": "2",
+        "color": "rgba(0, 0, 0, 0.3)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
