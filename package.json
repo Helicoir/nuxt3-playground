@@ -5,10 +5,15 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "dt:build": "style-dictionary build --config ./src/configs/style-dictionary/configs.json",
+    "dt:transform": "token-transformer ./src/configs/design-tokens/design-tokens.json ./src/configs/design-tokens/formatted-tokens.json",
+    "dt:build:init": "style-dictionary init basic"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "nuxt": "3.0.0",
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.28"
   },
   "dependencies": {
     "prettier": "^2.8.0"
