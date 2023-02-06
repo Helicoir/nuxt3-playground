@@ -10,34 +10,136 @@
         "type": "color"
       }
     },
-    "my-shadow-tokens": {
-      "default": {
-        "value": [
-          {
-            "x": 5,
-            "y": 5,
-            "spread": 3,
-            "color": "rgba({shadows.default}, 0.15)",
-            "blur": 5,
-            "type": "dropShadow"
-          },
-          {
-            "x": 4,
-            "y": 4,
-            "spread": 6,
-            "color": "#00000033",
-            "blur": 5,
-            "type": "innerShadow"
-          }
-        ],
-        "type": "boxShadow"
+    "shadow": {
+      "value": {
+        "x": "5",
+        "y": "5",
+        "blur": "20",
+        "spread": "20",
+        "color": "rgba(0,0,0,0.25)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "tokenSetOrder": {
+      "0": {
+        "value": "config",
+        "type": "other"
       }
+    },
+    "percentAlias": {
+      "value": "375 / 100",
+      "type": "sizing",
+      "description": "valiables for sizing relatively"
+    },
+    "5%": {
+      "value": "5 * {percentAlias}",
+      "type": "spacing"
+    },
+    "100%": {
+      "value": "100 * {percentAlias}",
+      "type": "sizing"
+    },
+    "palegreen": {
+      "value": "#bbe7e1",
+      "type": "color"
+    },
+    "roles": {
+      "primary": {
+        "value": "{colors.red}",
+        "type": "color"
+      }
+    },
+    "30%": {
+      "value": "30 * {percentAlias}",
+      "type": "sizing"
+    },
+    "ss": {
+      "value": "5px",
+      "type": "dimension"
+    }
+  },
+  "pc": {
+    "colors": {
+      "red": {
+        "value": "#FF0000",
+        "type": "color"
+      },
+      "blue": {
+        "value": "#0000ff",
+        "type": "color"
+      }
+    },
+    "shadow": {
+      "value": {
+        "x": "5",
+        "y": "5",
+        "blur": "20",
+        "spread": "20",
+        "color": "rgba(0,0,0,0.25)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "tokenSetOrder": {
+      "0": {
+        "value": "config",
+        "type": "other"
+      }
+    },
+    "percentAlias": {
+      "value": "1280 / 100",
+      "type": "sizing",
+      "description": "valiables for sizing relatively"
+    },
+    "5%": {
+      "value": "5 * {percentAlias}",
+      "type": "spacing"
+    },
+    "100%": {
+      "value": "100 * {percentAlias}",
+      "type": "sizing"
+    },
+    "palegreen": {
+      "value": "#bbe7e1",
+      "type": "color"
+    },
+    "roles": {
+      "primary": {
+        "value": "{colors.red}",
+        "type": "color"
+      }
+    },
+    "30%": {
+      "value": "30 * {percentAlias}",
+      "type": "sizing"
+    },
+    "iphone5": {
+      "value": "320",
+      "type": "sizing"
+    },
+    "iphone5x2": {
+      "value": "{iphone5} * 2",
+      "type": "sizing"
+    },
+    "spaceAlias": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "{spaceAlias} * 4",
+      "type": "spacing"
+    },
+    "s": {
+      "value": "{spaceAlias} * 8",
+      "type": "spacing"
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "config"
+      "config",
+      "pc"
     ]
   }
 }
