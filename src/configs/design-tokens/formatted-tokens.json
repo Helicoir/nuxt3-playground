@@ -1,0 +1,47 @@
+{
+  "colors": {
+    "red": {
+      "value": "#FF0000",
+      "type": "color"
+ },
+    "blue": {
+      "value": "#0000ff",
+      "type": "color"
+    }
+  },   
+  "shadow": {
+    "value": {
+      "x": "5",
+      "y": "5",
+      "blur": "20",
+      "spread": "20",
+      "color": "rgba(0,0,0,0.25)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "typography": {
+    "h1": {
+      "Bold": {
+        "value": {
+          "fontFamily": "Helvetica",
+          "fontSize": "24",
+          "fontWeight": "bold",
+          "textDecoration": "none",
+          "textCase": "none",
+          "lineHeight": "1",
+          "letterSpacing": "1",
+          "paragraphSpacing": "1",
+          "paragraphIndent": "1"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "config",
+      "type": "other"
+    }
+  }
+}

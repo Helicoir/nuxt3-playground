@@ -1,0 +1,26 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 16 Jan 2023 17:50:52 GMT
+ */
+
+:root {
+  --colors-red: #FF0000;
+  --colors-blue: #0000ff;
+  --typography-h1-bold: [object Object];
+  --token-set-order-0: config;
+  --shadow-x: 5;
+  --shadow-y: 5;
+  --shadow-blur: 20;
+  --shadow-spread: 20;
+  --shadow-color: rgba(0,0,0,0.25);
+  --shadow-type: dropShadow;
+  --typography-h1-bold-font-family: Helvetica;
+  --typography-h1-bold-font-size: 24;
+  --typography-h1-bold-font-weight: bold;
+  --typography-h1-bold-text-decoration: none;
+  --typography-h1-bold-text-case: none;
+  --typography-h1-bold-line-height: 1;
+  --typography-h1-bold-letter-spacing: 1;
+  --typography-h1-bold-paragraph-spacing: 1;
+  --typography-h1-bold-paragraph-indent: 1;
+}

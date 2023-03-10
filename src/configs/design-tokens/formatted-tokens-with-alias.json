@@ -1,0 +1,54 @@
+{
+  "test": {
+    "colors": {
+      "red": {
+        "value": "#FF0000",
+        "type": "color"
+      },
+      "blue": {
+        "value": "#0000ff",
+        "type": "color"
+      }
+    },
+    "shadow": {
+      "value": {
+        "x": "5",
+        "y": "5",
+        "blur": "20",
+        "spread": "20",
+        "color": "rgba(0,0,0,0.25)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "tokenSetOrder": {
+      "0": {
+        "value": "config",
+        "type": "other"
+      }
+    },
+    "percentAlias": {
+      "value": "375 / 100",
+      "type": "sizing",
+      "description": "valiables for sizing relatively"
+    },
+    "5%": {
+      "value": "5 * {percentAlias}",
+      "type": "spacing"
+    },
+    "100%": {
+      "value": "100 * {percentAlias}",
+      "type": "sizing"
+    },
+    "palegreen": {
+      "value": "#bbe7e1",
+      "type": "color"
+    },
+    "roles": {
+      "primary": {
+        "value": "{colors.red}",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -6,8 +6,10 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "dt:build": "style-dictionary build --config ./src/configs/style-dictionary/configs.json",
+    "dt:build": "style-dictionary build --config ./src/configs/style-dictionary/config.js",
+    "dt:buildNode": "node ./src/configs/style-dictionary/config.js",
     "dt:transform": "token-transformer ./src/configs/design-tokens/design-tokens.json ./src/configs/design-tokens/formatted-tokens.json",
+    "transpileSD": "esbuild ./src/configs/style-dictionary/test.config.ts --target=es5 --outfile=output.js --platform=node",
     "dt:build:init": "style-dictionary init basic"
   },
   "devDependencies": {
